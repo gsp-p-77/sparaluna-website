@@ -157,6 +157,15 @@ a:hover, a:active, a:focus {
   text-align: center;
 }
 
+.hero-text-panel {
+  background: rgba(0, 0, 0, 0.55); /* dark, semi-transparent */
+  padding: 30px 40px;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 0 auto; /* center horizontally */
+  text-align: center;
+  backdrop-filter: blur(4px); /* optional, modern browsers */
+}
 
 /*---------------------------------------
   Pre loader section              
