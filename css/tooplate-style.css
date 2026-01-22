@@ -158,13 +158,23 @@ a:hover, a:active, a:focus {
 }
 
 .hero-text-panel {
-  background: rgba(0, 0, 0, 0.55); /* dark, semi-transparent */
+  background: rgba(0, 0, 0, 0.55);
   padding: 30px 40px;
   border-radius: 12px;
   max-width: 700px;
-  margin: 0 auto; /* center horizontally */
+  margin: 0 auto;
   text-align: center;
-  backdrop-filter: blur(4px); /* optional, modern browsers */
+  backdrop-filter: blur(4px);
+}
+
+.hero-text-panel h1 {
+  font-size: 3.2rem;
+  letter-spacing: 0.05em;
+}
+
+.hero-text-panel p {
+  font-size: 1.2rem;
+  line-height: 1.6;
 }
 
 /*---------------------------------------
