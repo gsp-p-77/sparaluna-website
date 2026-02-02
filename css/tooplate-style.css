@@ -103,6 +103,19 @@ p {
 }
 
 
+.mixcloud-button {
+  display: inline-block;
+  padding: 10px 16px;
+  background: #52aad8;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.mixcloud-button:hover {
+  background: #3b8bbd;
+}
 
 /*---------------------------------------
   General               
