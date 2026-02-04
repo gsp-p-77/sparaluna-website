@@ -111,10 +111,10 @@ html{
 }
 
 a {
-  color: #757557;
+  color: #0066CC;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  text-decoration: none !important;
+  text-decoration: underline !important;
 }
 
 a:hover, a:active, a:focus {
