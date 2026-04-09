@@ -9,10 +9,11 @@ http://www.tooplate.com/view/2087-kalay
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400');
 
 body {
-    background: #ffffff;
+    background: #0b0f14;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
+    color: #e7ecf3;
     overflow-x: hidden;
 }
 
@@ -40,14 +41,14 @@ h1 {
 }
 
 h2 {
-  color: #2b2b2b;
+  color: #f3f6fb;
   font-size: 35px;
   line-height: 52px;
   margin-top: 0px;
 }
 
 h3 {
-  color: #282828;
+  color: #c8d2df;
   font-size: 16px;
   line-height: 32px;
   letter-spacing: 6px;
@@ -55,12 +56,12 @@ h3 {
 }
 
 h4 {
-  color: #353535;
+  color: #eef2f8;
   font-size: 20px;
 }
 
 p {
-  color: #878787;
+  color: #aeb8c7;
   font-size: 16px;
   font-weight: normal;
   line-height: 25px;
@@ -82,10 +83,10 @@ p {
 -----------------------------------------*/
 
 .section-btn {
-  background: #000000;
+  background: #dce6f4;
   border: none;
   border-radius: 50px;
-  color: #f0f0f0;
+  color: #0b0f14;
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 1.5px;
@@ -98,8 +99,8 @@ p {
 
 .section-btn:focus,
 .section-btn:hover {
-  background: #ffffff;
-  color: #000000;
+  background: #7682cc;
+  color: #ffffff;
 }
 
 /*---------------------------------------
@@ -111,14 +112,14 @@ html{
 }
 
 a {
-  color: #0066CC;
+  color: #95b8ff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   text-decoration: underline !important;
 }
 
 a:hover, a:active, a:focus {
-  color: #000000;
+  color: #dce6f4;
   outline: none;
 }
 
@@ -151,18 +152,20 @@ a:hover, a:active, a:focus {
 }
 
 #service, #work {
-  background: #f9f9f9;
+  background: #121821;
   text-align: center;
 }
 
 .hero-text-panel {
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(8, 12, 18, 0.72);
   padding: 30px 40px;
   border-radius: 12px;
   max-width: 700px;
   margin: 0 auto;
   text-align: center;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(220, 230, 244, 0.12);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
 }
 
 .hero-text-panel h1 {
@@ -190,7 +193,7 @@ a:hover, a:active, a:focus {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  background: none repeat scroll 0 0 #ffffff;
+  background: none repeat scroll 0 0 #0b0f14;
 }
 
 .spinner {
@@ -210,8 +213,8 @@ a:hover, a:active, a:focus {
   margin-top: -10px;
   margin-left: -10px;
   border-radius: 50%;
-  border: 2px solid #454545;
-  border-top-color: #ffffff;
+  border: 2px solid #4c5b70;
+  border-top-color: #dce6f4;
   animation: spinner .9s linear infinite;
 }
 
@@ -253,8 +256,9 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 .service-thumb {
-  background: #ffffff;
+  background: #18212d;
   border-radius: 5px;
+  border: 1px solid #273241;
   padding: 42px 22px;
   cursor: crosshair;
   position: relative;
@@ -264,7 +268,7 @@ a:hover, a:active, a:focus {
 }
 
 .service-thumb:hover {
-  background: #2b2b2b;
+  background: #202c3a;
   top: -5px;
 }
 
@@ -305,7 +309,7 @@ a:hover, a:active, a:focus {
 }
 
 .about-image-thumb .social-icon li a {
-  background: #f0f0f0;
+  background: #18212d;
 }
 
 .about-thumb {
@@ -340,7 +344,7 @@ a:hover, a:active, a:focus {
 
 .work-thumb-overlay {
   position: absolute;
-  background: #7682cc;
+  background: rgba(118, 130, 204, 0.9);
   border-radius: 5px;
   cursor: crosshair;
   opacity: 0;
@@ -366,8 +370,10 @@ a:hover, a:active, a:focus {
 }
 
 #contact .form-control {
+  background: transparent;
+  color: #e7ecf3;
   border: none;
-  border-bottom: 2px solid #f0f0f0;
+  border-bottom: 2px solid #334154;
   border-radius: 0px;
   box-shadow: none;
   font-size: 18px;
@@ -378,7 +384,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact .form-control:focus {
-  border-bottom-color: #999999;
+  border-bottom-color: #95b8ff;
 }
 
 #contact input {
@@ -386,10 +392,10 @@ a:hover, a:active, a:focus {
 }
 
 #contact button#submit {
-  background: #2b2b2b;
+  background: #dce6f4;
   border: none;
   border-radius: 50px;
-  color: #ffffff;
+  color: #0b0f14;
   height: 50px;
   margin-top: 24px;
 }
@@ -406,9 +412,10 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 footer {
-  background: #7682cc;
+  background: #0f141c;
   text-align: center;
   padding: 120px 0;
+  border-top: 1px solid #273241;
 }
 
 footer p {
@@ -434,9 +441,9 @@ footer p {
 }
 
 .social-icon li a {
-  background: #ffffff;
+  background: #18212d;
   border-radius: 100%;
-  color: #454545;
+  color: #dce6f4;
   cursor: pointer;
   font-size: 20px;
   text-decoration: none;
@@ -452,10 +459,29 @@ footer p {
 }
 
 .social-icon li a:hover {
-  background: #000000;
+  background: #7682cc;
   color: #ffffff;
   transform: scale(1.1);
   top: -5px;
+}
+
+#music,
+#playlist,
+#about,
+#contact {
+  background: #0f141c;
+}
+
+#music iframe,
+#playlist iframe,
+.about-image-thumb img,
+.work-thumb img {
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.28);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #8391a5;
 }
 
 
